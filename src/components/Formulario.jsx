@@ -42,24 +42,24 @@ const Formulario = () => {
                     <div className="flex gap-14">
                         <div className="flex flex-col gap-3">
                             <label id="distance1" className="text-white text-lg font-bold">Distance 1</label>
-                            <input type="number" id="distance1" placeholder="Distance 1" className="rounded-md px-2 bg-slate-100" {...register("distance1", { required: true })} />
+                            <input type="number" id="distance1" placeholder="Distance 1" className="rounded-md px-2" {...register("distance1", { required: true })} />
                         </div>
 
                         <div className="flex flex-col gap-3">
                             <label id="speed1" className="text-white text-lg font-bold">Speed 1</label>
-                            <input type="number" id="speed1" placeholder="Speed 1" className="rounded-md px-2 bg-slate-100" {...register("speed1", { required: true })} />
+                            <input type="number" id="speed1" placeholder="Speed 1" className="rounded-md px-2" {...register("speed1", { required: true })} />
                         </div>
                     </div>
 
                     <div className="flex gap-14">
                         <div className="flex flex-col gap-3">
                             <label id="distance2" className="text-white text-lg font-bold">Distance 2</label>
-                            <input type="number" id="distance2" placeholder="Distance 2" className="rounded-md px-2 bg-slate-100" {...register("distance2", { required: true })} />
+                            <input type="number" id="distance2" placeholder="Distance 2" className="rounded-md px-2" {...register("distance2", { required: true })} />
                         </div>
 
                         <div className="flex flex-col gap-3">
                             <label id="speed2" className="text-white text-lg font-bold">Speed 2</label>
-                            <input type="number" id="speed2" placeholder="Speed 1" className="rounded-md px-2 bg-slate-100" {...register("speed2", { required: true })} />
+                            <input type="number" id="speed2" placeholder="Speed 1" className="rounded-md px-2" {...register("speed2", { required: true })} />
                         </div>
                     </div>
 

@@ -12,7 +12,7 @@ const NotationMath = ({ distance1, distance2, speedPlane1, speedPlane2 }) => {
     const time2 = (distance2 / speedPlane2).toFixed(2);
 
     return (
-        <div className="bg-black text-white w-full flex flex-col pr-[15%] pt-[24%] pb-[5%]" style={{ fontFamily: "Arial, sans-serif" }}>
+        <div className="bg-black text-white w-full flex flex-col pr-[5%] pt-[24%] pb-[5%]" style={{ fontFamily: "Arial, sans-serif" }}>
             <h1 className="font-bold text-xl">Calculation of Distances and Times</h1>
                 <InlineMath>{"\\text{ }"}</InlineMath>
             <h2 className="font-bold text-lg">Initial data</h2>
