@@ -13,6 +13,6 @@ export const simulation = (distance1, distance2, speedPlane1, speedPlane2) => {
     if (timePlane1 === timePlane2) {
         return `The controller has ${timePlane1} hours before the planes will be crash; and decreasing rate of distance between the planes is ${decreasingRate} mph.`;
     } else {
-        return`The planes won´t be crash, because they have different time to get convergence point. Plane 1 and 2 have ${timePlane1} and ${timePlane2} hours respectively; and decreasing rate of distance between the planes is ${decreasingRate} mph.`;
+        return `The planes won´t be crash, because they have different time to get convergence point. Plane 1 and 2 have ${timePlane1} and ${timePlane2} hours respectively; and decreasing rate of distance between the planes is ${decreasingRate} mph.`;
     }
 };
